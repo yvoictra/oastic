@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>aliases on Oastic</title>
+    <link>https://oastic.com/es/tags/aliases/</link>
+    <description>Recent content in aliases on Oastic</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 24 Oct 2020 09:43:16 +0000</lastBuildDate>
+    
+	<atom:link href="https://oastic.com/es/tags/aliases/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Cómo añadir alias a tu Linux</title>
+      <link>https://oastic.com/es/posts/how-to-add-alias-to-your-linux/</link>
+      <pubDate>Sat, 24 Oct 2020 09:43:16 +0000</pubDate>
+      
+      <guid>https://oastic.com/es/posts/how-to-add-alias-to-your-linux/</guid>
+      <description>Utilizando un sistema operativo Linux, hay un alto nivel de personalización, dependiendo de tus preferencias o necesidades.
+Una cosa importante es crear alias de los comandos más comunes para optimizar el tiempo que utilizas. En micaso, adoro utilizar &amp;ldquo;..&amp;rdquo; en lugar de &amp;ldquo;cd ..&amp;rdquo; o &amp;ldquo;update&amp;rdquo; para actualizar todas las actualizaciones pendientes del software de Ubuntu.
+Aquí os pongo mi lista de alias, no es grande pero es lo que yo utilizo mayormente en los servidores que tengo con Linux.</description>
+    </item>
+    
+  </channel>
+</rss>

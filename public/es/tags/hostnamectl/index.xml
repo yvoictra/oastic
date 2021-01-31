@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>hostnamectl on Oastic</title>
+    <link>https://oastic.com/es/tags/hostnamectl/</link>
+    <description>Recent content in hostnamectl on Oastic</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 14 Jan 2019 22:22:13 +0000</lastBuildDate>
+    
+	<atom:link href="https://oastic.com/es/tags/hostnamectl/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Cambiar el hostname en Ubuntu Linux</title>
+      <link>https://oastic.com/es/posts/change-hostname-in-ubuntu-linux/</link>
+      <pubDate>Mon, 14 Jan 2019 22:22:13 +0000</pubDate>
+      
+      <guid>https://oastic.com/es/posts/change-hostname-in-ubuntu-linux/</guid>
+      <description>Cuando instalamos por primera vez un nuevo sistema operativo una de las primeras consultas en el proceso de instalación es definir el hostname.
+Para cambiar el hostname de un sistema Ubuntu Linux, puedes seguir diferentes procedimientos.
+Editar los ficheros de configuración y reiniciando Edita el fichero /etc/hostname utilizando el editor vi. Modificar el viejo nombre por el nuevo.
+$ sudo vi /etc/hostname  Edita el fichero /etc/hosts y reemplaza cualquier ocurrencia del viejo nombre por el nuevo nombre.</description>
+    </item>
+    
+  </channel>
+</rss>

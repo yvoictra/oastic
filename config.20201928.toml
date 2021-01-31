@@ -1,0 +1,57 @@
+baseURL = "https://oastic.com/"
+languageCode = "en-us"
+title = "Oastic"
+theme = "hugo-PaperMod"
+#theme = "m10c"
+#disqusShortname = "yvoictra"
+googleAnalytics = "G-WWGPG2K3DB"
+enableRobotsTXT = true
+
+[params]
+    env = "production" # to enable google analytics, opengraph, twitter-cards and schema.
+    title = "Oastic"
+    description = "A blog to post interesting stuff about Linux, Ubuntu, Raspberry, Monitoring and things like that"
+    author = "Yvoictra"
+
+    images =["/oastic_opengraph.jpg"]
+
+    ShowReadingTime = "true"
+    ShowShareButtons = "true"
+    comments = "false"
+    ShowToc = "true"
+
+[menu]
+
+  [[menu.main]]
+    name = "tags"
+    url = "/tags"
+    weight = 4
+
+  [[menu.main]]
+    name = "Categories"
+    url = "/categories"
+    weight = 3
+
+  [[menu.main]]
+    name = "archive"
+    url = "/archive"
+    weight = 2
+
+  [[menu.main]]
+    name = "🔍"
+    url = "/search"
+    weight = 10
+
+  [[menu.main]]
+    name =" Raspberry Pi Guide"
+    url = "/pages/raspberry-pi-guide"
+    weight = 1
+
+
+#[markup.goldmark.renderer]
+#unsafe= true
+
+# Para busquedas
+[outputs]
+    home = ["HTML", "RSS", "JSON"]
+    page = ["HTML", "RSS"]

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>user on Oastic</title>
+    <link>https://oastic.com/tags/user/</link>
+    <description>Recent content in user on Oastic</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 18 Apr 2020 11:23:49 +0000</lastBuildDate>
+    
+	<atom:link href="https://oastic.com/tags/user/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>How to activate SUDO in Ubuntu for a user</title>
+      <link>https://oastic.com/posts/how-to-activate-sudo-in-ubuntu-for-a-user/</link>
+      <pubDate>Sat, 18 Apr 2020 11:23:49 +0000</pubDate>
+      
+      <guid>https://oastic.com/posts/how-to-activate-sudo-in-ubuntu-for-a-user/</guid>
+      <description>The sudo command allows users to run programs with the security privileges of another user, by default, the root user.
+First if all, the user should be created in the system if it doesn&amp;rsquo;t exists yet.
+On Ubuntu systems, by default members of the group sudo are granted to sudo command access.
+Once the user is created, from root user, or a user with sudo access, you have to execute this command to add the user to sudo group.</description>
+    </item>
+    
+    <item>
+      <title>Create a new user in Ubuntu from terminal</title>
+      <link>https://oastic.com/posts/create-a-new-user-in-ubuntu-from-terminal/</link>
+      <pubDate>Wed, 01 Apr 2020 21:54:34 +0000</pubDate>
+      
+      <guid>https://oastic.com/posts/create-a-new-user-in-ubuntu-from-terminal/</guid>
+      <description>In order to create a new user in a Linux Ubuntu distribution from terminal, you have to use this command.
+sudo adduser username  After this, the system will ask you some parameters included the password.
+[23:43:24] ubuntu|zoar:~$ sudo adduser yvoictra Adding user `yvoictra&#39; ... Adding new group`yvoictra&#39; (1001) … Adding new user `yvoictra&#39; (1001) with group`yvoictra&#39; … Creating home directory `/home/yvoictra&#39; ... Copying files from`/etc/skel&#39; … New password: Retype new password: passwd: password updated successfully Changing the user information for yvoictra Enter the new value, or press ENTER for the default Full Name []: Yvoictra Room Number []: Work Phone []: Home Phone []: Other []: Is the information correct?</description>
+    </item>
+    
+  </channel>
+</rss>

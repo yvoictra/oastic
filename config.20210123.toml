@@ -1,0 +1,172 @@
+baseURL = "https://oastic.com/"
+languageCode = "en-us"
+title = "Oastic"
+paginate = 8
+theme = "hugo-PaperMod"
+#theme = "m10c"
+#disqusShortname = "yvoictra"
+#enableInlineShortcodes = "true"
+googleAnalytics = "G-WWGPG2K3DB"
+enableRobotsTXT = true
+
+[minify]
+    disableXML = true
+    minifyOutput = true
+
+[params]
+    env = "production" # to enable google analytics, opengraph, twitter-cards and schema.
+    title = "Oastic"
+    description = "A blog to post interesting stuff about Linux, Ubuntu, Raspberry, Monitoring and things like that"
+    author = "Yvoictra"
+
+    images =["/oastic_opengraph.jpg"]
+
+    ShowReadingTime = "true"
+    ShowShareButtons = "true"
+    comments = "false"
+#    ShowToc = "true"
+#    ShowPostNavLinks = "true"
+#    mainSections = ["posts"]
+
+    [params.label]
+       #text = "Home"
+       icon = "/apple-touch-icon.png"
+       iconHeight = "35"
+ 
+#    [params.homeInfoParams]
+#       Title = "Hi there \U0001F44B"
+#       Content = "Welcome to my blog"
+
+#    [[params.socialIcons]]
+#       name = "twitter"
+#       url = "https://twitter.com/oastic_com"
+
+#    [[params.socialIcons]]
+#       name = "kofi"
+#       url = "https://ko-fi.com/yvoictra"
+
+
+#[permalinks]
+#    post = "/:year/:month/:title/"
+
+DefaultContentLanguage = "en"
+[languages]
+    [languages.en]
+        title = "Oastic"
+        languageName = "English"
+        weight = 1
+
+        [languages.en.homeInfoParams]
+          Title = "Hi there \U0001F44B"
+          Content = "Welcome to my blog. I'm Enrique Gómez (AKA yvoictra), a network Engineer from Spain, and this is **Oastic**, my tech blog project."
+        [[languages.en.params.socialIcons]]
+          name = "twitter"
+          url = "https://twitter.com/yvoictra"
+        [[languages.en.params.socialIcons]]
+          name = "kofi"
+          url = "https://ko-fi.com/yvoictra"
+        [[languages.en.params.socialIcons]]
+          name = "linkedin"
+          url = "https://www.linkedin.com/in/yvoictra"
+        [[languages.en.params.socialIcons]]
+          name = "instagram"
+          url = "https://instagram.com/yvoictra"
+        [[languages.en.params.socialIcons]]
+          name = "telegram"
+          url = "https://t.me/yvoictra"
+        [[languages.en.params.socialIcons]]
+          name = "github"
+          url = "https://github.com/yvoictra"
+        [[languages.en.params.socialIcons]]
+          name = "steam"
+          url = "https://steamcommunity.com/id/yvoictra"
+        [[languages.en.params.socialIcons]]
+          name = "rss"
+          url = "https://oastic.com/index.xml"
+
+        [[languages.en.menu.main]]
+          name ="Raspberry Pi Guide"
+          url = "raspberry-pi-guide"
+          weight = 1
+        [[languages.en.menu.main]]
+          name = "Archive"
+          url = "/archive"
+          weight = 2
+        [[languages.en.menu.main]]
+          name = "Categories"
+          url = "/categories"
+          weight = 3
+        [[languages.en.menu.main]]
+          name = "Tags"
+          url = "/tags"
+          weight = 4
+        [[languages.en.menu.main]]
+          name = "🔍"
+          url = "/search"
+          weight = 5
+
+     [languages.es]
+        title = "Oastic"
+        languageName = "Spanish"
+        weight = 2
+
+        [languages.es.homeInfoParams]
+          Title = "¡Hola! \U0001F44B"
+          Content = "Bienvenido a mi blog. Soy Enrique Gómez (AKA yvoictra), un Ingeniero de Red de España, y esto es **Oastic**, mi proyecto de blog tecnológico."
+        [[languages.es.params.socialIcons]]
+          name = "twitter"
+          url = "https://twitter.com/yvoictra"
+        [[languages.es.params.socialIcons]]
+          name = "kofi"
+          url = "https://ko-fi.com/yvoictra"
+        [[languages.es.params.socialIcons]]
+          name = "linkedin"
+          url = "https://www.linkedin.com/in/yvoictra"
+        [[languages.es.params.socialIcons]]
+          name = "instagram"
+          url = "https://instagram.com/yvoictra"
+        [[languages.es.params.socialIcons]]
+          name = "telegram"
+          url = "https://t.me/yvoictra"
+        [[languages.es.params.socialIcons]]
+          name = "github"
+          url = "https://github.com/yvoictra"
+        [[languages.es.params.socialIcons]]
+          name = "steam"
+          url = "https://steamcommunity.com/id/yvoictra"
+        [[languages.es.params.socialIcons]]
+          name = "rss"
+          url = "https://oastic.com/index.xml"
+
+        [[languages.es.menu.main]]
+          name ="Guía Raspberry Pi"
+          url = "raspberry-pi-guide"
+          weight = 1
+        [[languages.es.menu.main]]
+          name = "Archivo"
+          url = "/archive"
+          weight = 2
+        [[languages.es.menu.main]]
+          name = "Categorias"
+          url = "/categories"
+          weight = 3
+        [[languages.es.menu.main]]
+          name = "Etiquetas"
+          url = "/tags"
+          weight = 4
+        [[languages.es.menu.main]]
+          name = "🔍"
+          url = "/search"
+          weight = 5
+
+#[markup.goldmark.renderer]
+#unsafe= true
+
+#[socialIcons]
+#     name =  "twitter"
+#        url= "https://twitter.com/oastic_es"
+
+# Para busquedas
+[outputs]
+    home = ["HTML", "RSS", "JSON"]
+    page = ["HTML", "RSS"]

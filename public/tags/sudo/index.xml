@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>sudo on Oastic</title>
+    <link>https://oastic.com/tags/sudo/</link>
+    <description>Recent content in sudo on Oastic</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 18 Apr 2020 11:23:49 +0000</lastBuildDate>
+    
+	<atom:link href="https://oastic.com/tags/sudo/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>How to activate SUDO in Ubuntu for a user</title>
+      <link>https://oastic.com/posts/how-to-activate-sudo-in-ubuntu-for-a-user/</link>
+      <pubDate>Sat, 18 Apr 2020 11:23:49 +0000</pubDate>
+      
+      <guid>https://oastic.com/posts/how-to-activate-sudo-in-ubuntu-for-a-user/</guid>
+      <description>The sudo command allows users to run programs with the security privileges of another user, by default, the root user.
+First if all, the user should be created in the system if it doesn&amp;rsquo;t exists yet.
+On Ubuntu systems, by default members of the group sudo are granted to sudo command access.
+Once the user is created, from root user, or a user with sudo access, you have to execute this command to add the user to sudo group.</description>
+    </item>
+    
+  </channel>
+</rss>

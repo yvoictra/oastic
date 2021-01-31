@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Pages on Oastic</title>
+    <link>https://oastic.com/pages/</link>
+    <description>Recent content in Pages on Oastic</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 31 Mar 2020 21:05:16 +0000</lastBuildDate>
+    
+	<atom:link href="https://oastic.com/pages/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Raspberry Pi Guide</title>
+      <link>https://oastic.com/pages/raspberry-pi-guide/</link>
+      <pubDate>Tue, 31 Mar 2020 21:05:16 +0000</pubDate>
+      
+      <guid>https://oastic.com/pages/raspberry-pi-guide/</guid>
+      <description> How to install Ubuntu in your Raspberry Pi 4 without Keyboard nor screen How to change the hostname How to change language and timezone  Users  How to create a new user in Ubuntu How to activate SUDO for a user  Networking  How to set up WIFI on Ubuntu Running on the Raspberry Pi 4 How to resolve LAN hostnames How to monitor network traffic with vnStat  Customization  Customize the terminal with-screenfetch Customize bash prompt with colours How to add alias to your Linux  </description>
+    </item>
+    
+  </channel>
+</rss>

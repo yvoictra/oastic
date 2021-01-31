@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Gaming on Oastic</title>
+    <link>https://oastic.com/categories/gaming/</link>
+    <description>Recent content in Gaming on Oastic</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 08 Dec 2020 22:47:29 +0000</lastBuildDate>
+    
+	<atom:link href="https://oastic.com/categories/gaming/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>How to install a CS GO (Counter-Strike: Global Offensive) server in Ubuntu 20.10</title>
+      <link>https://oastic.com/posts/how-to-install-a-cs-go-counter-strike-global-offenive-server-in-ubuntu-20-10/</link>
+      <pubDate>Tue, 08 Dec 2020 22:47:29 +0000</pubDate>
+      
+      <guid>https://oastic.com/posts/how-to-install-a-cs-go-counter-strike-global-offenive-server-in-ubuntu-20-10/</guid>
+      <description>Some people are interested in have a private server in order to play CS GO (Counter-Strike: Global Offensive) with their friends. The process is easy to follow.
+What is needed?  A server  Memory: At least 2GB RAM (I recommend 4GB) Disk: At least 15 GB os disk space CPU architecture: x86 (ARM not supported)   A Valve account  Create a new user First of all, it is important to create a new user in Linux in order to prevent CS GO server possible hacking to affect your Linux node.</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>language on Oastic</title>
+    <link>https://oastic.com/es/tags/language/</link>
+    <description>Recent content in language on Oastic</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 01 Apr 2020 19:32:37 +0000</lastBuildDate>
+    
+	<atom:link href="https://oastic.com/es/tags/language/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Cómo cambiar el idioma y la configuración local en Ubuntu</title>
+      <link>https://oastic.com/es/posts/how-to-change-your-language-and-local-configuration-in-ubuntu/</link>
+      <pubDate>Wed, 01 Apr 2020 19:32:37 +0000</pubDate>
+      
+      <guid>https://oastic.com/es/posts/how-to-change-your-language-and-local-configuration-in-ubuntu/</guid>
+      <description>Conecta vía SSH a tu máquina y ejecuta el siguiente comando
+sudo dpkg-reconfigure locales  Tras esto, veras un listado de idiomas y países. Tienes que seleccionar con la barra espaciadora el idioma y el país que necesites. En mi caso, como vivo en España, he seleccionado es_ES.UTF-8. Es recomendable seleccionar la versión UTF-8.
+Finalmente, Ubuntu te preguntará el idioma por defecto del sistema operativo.
+Tras esto, debes de configurar el idioma en el teclado con este comando:</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>vnstat on Oastic</title>
+    <link>https://oastic.com/es/tags/vnstat/</link>
+    <description>Recent content in vnstat on Oastic</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 03 Apr 2020 16:57:25 +0000</lastBuildDate>
+    
+	<atom:link href="https://oastic.com/es/tags/vnstat/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Cómo monitorizar el tráfico de red en Ubuntu utilizando vnStat</title>
+      <link>https://oastic.com/es/posts/how-to-monitor-network-traffic-on-ubuntu-using-vnstat/</link>
+      <pubDate>Fri, 03 Apr 2020 16:57:25 +0000</pubDate>
+      
+      <guid>https://oastic.com/es/posts/how-to-monitor-network-traffic-on-ubuntu-using-vnstat/</guid>
+      <description>Monitorizar el tráfico de red o uso de ancho de banda es algo indispensable en las actividades de un SysAdmin. Hay muchas herramientas diferentes para gestionar esta monitorización, pero una de mis favoritas en vnStat. La principal ventaja de esta herramienta es la simplicidad de su uso.
+Instalación Con Ubuntu, la forma de instalar esta herramiento es con apt.
+sudo apt install vnstat  Primeros pasos Una vez instalado, es importante conocer qué interfaces van a ser monitorizados.</description>
+    </item>
+    
+  </channel>
+</rss>

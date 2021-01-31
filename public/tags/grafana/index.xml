@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Grafana on Oastic</title>
+    <link>https://oastic.com/tags/grafana/</link>
+    <description>Recent content in Grafana on Oastic</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 29 Jul 2018 22:22:45 +0000</lastBuildDate>
+    
+	<atom:link href="https://oastic.com/tags/grafana/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>How to Monitor an Ubuntu Server with Grafana and Prometheus</title>
+      <link>https://oastic.com/posts/how-to-monitor-an-ubuntu-server-with-grafana-prometheus/</link>
+      <pubDate>Sun, 29 Jul 2018 22:22:45 +0000</pubDate>
+      
+      <guid>https://oastic.com/posts/how-to-monitor-an-ubuntu-server-with-grafana-prometheus/</guid>
+      <description>Grafana is an open source metric analytics &amp;amp; visualization tool which can help us to monitor the system with a nice Dashboard.
+Step 1: Installing Grafana Grafana is available in the APT packages repository, however it could not be the latest version, so we&amp;rsquo;ll use the official Grafana repository.
+First, it is needed to create the file /etc/apt/sources.list.d/grafana.list and add the following into it:
+deb https://packages.grafana.com/oss/deb stable main  There is a separate repository for beta releases:</description>
+    </item>
+    
+  </channel>
+</rss>

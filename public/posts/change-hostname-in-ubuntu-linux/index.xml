@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Change hostname in Ubuntu Linux on Oastic</title>
+    <link>https://oastic.com/posts/change-hostname-in-ubuntu-linux/</link>
+    <description>Recent content in Change hostname in Ubuntu Linux on Oastic</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 14 Jan 2019 22:22:13 +0000</lastBuildDate>
+    
+	<atom:link href="https://oastic.com/posts/change-hostname-in-ubuntu-linux/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+  </channel>
+</rss>

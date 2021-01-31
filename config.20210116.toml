@@ -1,0 +1,97 @@
+baseURL = "https://oastic.com/"
+languageCode = "en-us"
+title = "Oastic"
+paginate = 8
+theme = "hugo-PaperMod"
+#theme = "m10c"
+#disqusShortname = "yvoictra"
+#enableInlineShortcodes = "true"
+googleAnalytics = "G-WWGPG2K3DB"
+enableRobotsTXT = true
+
+[minify]
+    disableXML = true
+    minifyOutput = true
+
+[params]
+    env = "production" # to enable google analytics, opengraph, twitter-cards and schema.
+    title = "Oastic"
+    description = "A blog to post interesting stuff about Linux, Ubuntu, Raspberry, Monitoring and things like that"
+    author = "Yvoictra"
+
+    images =["/oastic_opengraph.jpg"]
+
+    ShowReadingTime = "true"
+    ShowShareButtons = "true"
+    comments = "false"
+#    ShowToc = "true"
+#    ShowPostNavLinks = "true"
+#    mainSections = ["posts"]
+
+#[permalinks]
+#    post = "/:year/:month/:title/"
+
+DefaultContentLanguage = "en"
+
+[languages]
+    [languages.en]
+        title = "Oastic"
+        languageName = "English"
+        weight = 1
+        [[languages.en.menu.main]]
+          name ="Raspberry Pi Guide"
+          url = "raspberry-pi-guide"
+          weight = 1
+        [[languages.en.menu.main]]
+          name = "Archive"
+          url = "/archive"
+          weight = 2
+        [[languages.en.menu.main]]
+          name = "Categories"
+          url = "/categories"
+          weight = 3
+        [[languages.en.menu.main]]
+          name = "Tags"
+          url = "/tags"
+          weight = 4
+        [[languages.en.menu.main]]
+          name = "🔍"
+          url = "/search"
+          weight = 5
+
+     [languages.es]
+        title = "Oastic"
+        languageName = "Spanish"
+        weight = 2
+        [[languages.es.menu.main]]
+          name ="Guía Raspberry Pi"
+          url = "raspberry-pi-guide"
+          weight = 1
+        [[languages.es.menu.main]]
+          name = "Archivo"
+          url = "/archive"
+          weight = 2
+        [[languages.es.menu.main]]
+          name = "Categorias"
+          url = "/categories"
+          weight = 3
+        [[languages.es.menu.main]]
+          name = "Etiquetas"
+          url = "/tags"
+          weight = 4
+        [[languages.es.menu.main]]
+          name = "🔍"
+          url = "/search"
+          weight = 5
+
+#[markup.goldmark.renderer]
+#unsafe= true
+
+#[socialIcons]
+#     name =  "twitter"
+#        url= "https://twitter.com/oastic_es"
+
+# Para busquedas
+[outputs]
+    home = ["HTML", "RSS", "JSON"]
+    page = ["HTML", "RSS"]

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Monitoring on Oastic</title>
+    <link>https://oastic.com/es/categories/monitoring/</link>
+    <description>Recent content in Monitoring on Oastic</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 03 Apr 2020 16:57:25 +0000</lastBuildDate>
+    
+	<atom:link href="https://oastic.com/es/categories/monitoring/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Cómo monitorizar el tráfico de red en Ubuntu utilizando vnStat</title>
+      <link>https://oastic.com/es/posts/how-to-monitor-network-traffic-on-ubuntu-using-vnstat/</link>
+      <pubDate>Fri, 03 Apr 2020 16:57:25 +0000</pubDate>
+      
+      <guid>https://oastic.com/es/posts/how-to-monitor-network-traffic-on-ubuntu-using-vnstat/</guid>
+      <description>Monitorizar el tráfico de red o uso de ancho de banda es algo indispensable en las actividades de un SysAdmin. Hay muchas herramientas diferentes para gestionar esta monitorización, pero una de mis favoritas en vnStat. La principal ventaja de esta herramienta es la simplicidad de su uso.
+Instalación Con Ubuntu, la forma de instalar esta herramiento es con apt.
+sudo apt install vnstat  Primeros pasos Una vez instalado, es importante conocer qué interfaces van a ser monitorizados.</description>
+    </item>
+    
+    <item>
+      <title>Cómo monitorizar un servidor Ubuntu con Grafana y Prometheus</title>
+      <link>https://oastic.com/es/posts/how-to-monitor-an-ubuntu-server-with-grafana-prometheus/</link>
+      <pubDate>Sun, 29 Jul 2018 22:22:45 +0000</pubDate>
+      
+      <guid>https://oastic.com/es/posts/how-to-monitor-an-ubuntu-server-with-grafana-prometheus/</guid>
+      <description>Grafana es una herramienta open source analizador y visualizador que nos puede ayudar a monitorizar el sistema con un agradable Dashboard.
+Paso 1: Instalar Grafana Grafana está disponible en el repositorio de los paquetes APT, sin embargo podria no ser la última versión, asi que usaremos el repositorio oficial de Grafana.
+Lo primero, es necesario crear el fichero /etc/apt/sources.list.d/grafana.list y añadir lo siguiente en él:
+deb https://packages.grafana.com/oss/deb stable main  Hay un repositorio seperado para versiones beta:</description>
+    </item>
+    
+  </channel>
+</rss>

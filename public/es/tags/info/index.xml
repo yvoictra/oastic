@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Info on Oastic</title>
+    <link>https://oastic.com/es/tags/info/</link>
+    <description>Recent content in Info on Oastic</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 05 Sep 2020 09:39:33 +0000</lastBuildDate>
+    
+	<atom:link href="https://oastic.com/es/tags/info/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Obtener la localización de una dirección IP desde la línea de comandos</title>
+      <link>https://oastic.com/es/posts/get-ip-address-location-info-from-command-line/</link>
+      <pubDate>Sat, 05 Sep 2020 09:39:33 +0000</pubDate>
+      
+      <guid>https://oastic.com/es/posts/get-ip-address-location-info-from-command-line/</guid>
+      <description>La línea de comandos de Linux es una gran herramienta. Hoy me gustaría compartir un método para obtener la informción geográfica de una IP con un comando, utilizando cURL y la herramienta de ipinfo.io.
+Es tan sencillo como usar este comando:
+$ curl ipinfo.io/&amp;lt;IP Address&amp;gt;  Aquí tienes un ejemplo:
+Obtendrás estos parámetros:
+ IP Ciudad Región País Loc (Coordenadas) Org Código Postal Zona Horaria  Y esto es todo. Si quieres tener más información sobre una dirección IP, podría visitar la web de ipinfo.</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>ifconfig on Oastic</title>
+    <link>https://oastic.com/es/tags/ifconfig/</link>
+    <description>Recent content in ifconfig on Oastic</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 02 Apr 2020 21:18:31 +0000</lastBuildDate>
+    
+	<atom:link href="https://oastic.com/es/tags/ifconfig/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Cómo configurar la WIFI en Ubuntu sobre una Raspberry Pi 4</title>
+      <link>https://oastic.com/es/posts/how-to-set-up-wifi-on-ubuntu-running-on-the-raspberry-pi-4/</link>
+      <pubDate>Thu, 02 Apr 2020 21:18:31 +0000</pubDate>
+      
+      <guid>https://oastic.com/es/posts/how-to-set-up-wifi-on-ubuntu-running-on-the-raspberry-pi-4/</guid>
+      <description>El primer paso es revisar el estado del interfaz. Para ello, usaremos el paquete net-tools.
+sudo apt install net-tools  Tras esto, podemos ver el estado del interfaz
+ifconfig -a  En mi caso, éste es el estado de mi interfaz wlan0:
+ubuntu@ubuntu:~$ ifconfig -a wlan0 wlan0: flags=4098&amp;lt;BROADCAST,MULTICAST&amp;gt; mtu 1500 ether dc:a6:32:6c:xx:xx txqueuelen 1000 (Ethernet) RX packets 0 bytes 0 (0.0 B) RX errors 0 dropped 0 overruns 0 frame 0 TX packets 0 bytes 0 (0.</description>
+    </item>
+    
+  </channel>
+</rss>

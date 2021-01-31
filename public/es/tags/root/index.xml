@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>root on Oastic</title>
+    <link>https://oastic.com/es/tags/root/</link>
+    <description>Recent content in root on Oastic</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 18 Apr 2020 11:23:49 +0000</lastBuildDate>
+    
+	<atom:link href="https://oastic.com/es/tags/root/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Cómo activar SUDO en Ubuntu para un usuario</title>
+      <link>https://oastic.com/es/posts/how-to-activate-sudo-in-ubuntu-for-a-user/</link>
+      <pubDate>Sat, 18 Apr 2020 11:23:49 +0000</pubDate>
+      
+      <guid>https://oastic.com/es/posts/how-to-activate-sudo-in-ubuntu-for-a-user/</guid>
+      <description>El comando sudo permite a los usuarios a ejecutar programas con los privilegios de seguridad de otro usuario, por defecto, del usuario root.
+Lo primero, el usuario debe de ser creado en el sistema si no existe aún.
+En sistemas Ubuntu, por defecto los miembros del grupo sudo tienen permiso para acceder al comando sudo.
+Una vez el usuario está creado, desde el usuario root o desde un usuario con acceso al comando sudo, tienes que ejecutar este comando para añadir al usuario al grupo sudo.</description>
+    </item>
+    
+  </channel>
+</rss>

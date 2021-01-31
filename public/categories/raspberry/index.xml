@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Raspberry on Oastic</title>
+    <link>https://oastic.com/categories/raspberry/</link>
+    <description>Recent content in Raspberry on Oastic</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 02 Apr 2020 21:18:31 +0000</lastBuildDate>
+    
+	<atom:link href="https://oastic.com/categories/raspberry/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>How to set up WIFI on Ubuntu running on the Raspberry Pi 4</title>
+      <link>https://oastic.com/posts/how-to-set-up-wifi-on-ubuntu-running-on-the-raspberry-pi-4/</link>
+      <pubDate>Thu, 02 Apr 2020 21:18:31 +0000</pubDate>
+      
+      <guid>https://oastic.com/posts/how-to-set-up-wifi-on-ubuntu-running-on-the-raspberry-pi-4/</guid>
+      <description>First step is to check the status of the interfaces. For this, we will use the net-tools package.
+sudo apt install net-tools  Then, we can see the interfaces status
+ifconfig -a  In my case, I have this status of my interface wlan0:
+ubuntu@ubuntu:~$ ifconfig -a wlan0 wlan0: flags=4098&amp;lt;BROADCAST,MULTICAST&amp;gt; mtu 1500 ether dc:a6:32:6c:xx:xx txqueuelen 1000 (Ethernet) RX packets 0 bytes 0 (0.0 B) RX errors 0 dropped 0 overruns 0 frame 0 TX packets 0 bytes 0 (0.</description>
+    </item>
+    
+    <item>
+      <title>Raspberry Pi Guide</title>
+      <link>https://oastic.com/raspberry-pi-guide/</link>
+      <pubDate>Tue, 31 Mar 2020 21:05:16 +0000</pubDate>
+      
+      <guid>https://oastic.com/raspberry-pi-guide/</guid>
+      <description> How to install Ubuntu in your Raspberry Pi 4 without Keyboard nor screen How to change the hostname How to change language and timezone  Users  How to create a new user in Ubuntu from terminal How to activate SUDO for a user  Networking  How to set up WIFI on Ubuntu Running on the Raspberry Pi 4 How to resolve LAN hostnames How to monitor network traffic with vnStat  Customization  Customize the terminal with screenFetch Customize bash prompt with colours How to add alias to your Linux  </description>
+    </item>
+    
+  </channel>
+</rss>

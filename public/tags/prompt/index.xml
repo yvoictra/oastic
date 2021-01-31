@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>prompt on Oastic</title>
+    <link>https://oastic.com/tags/prompt/</link>
+    <description>Recent content in prompt on Oastic</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 01 Apr 2020 21:06:21 +0000</lastBuildDate>
+    
+	<atom:link href="https://oastic.com/tags/prompt/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Customize Bash Prompt with colours in Ubuntu</title>
+      <link>https://oastic.com/posts/customize-bash-prompt-with-colours-in-ubuntu/</link>
+      <pubDate>Wed, 01 Apr 2020 21:06:21 +0000</pubDate>
+      
+      <guid>https://oastic.com/posts/customize-bash-prompt-with-colours-in-ubuntu/</guid>
+      <description>There are lot of people that simply like to customize the appearence of the terminal, is my case. When you use a terminal during a lot of time, it usually helps to have a prompt more visible than the default one.
+Backup First of all, you should make a backup of the configuration file in order to fall back in case it is necessary. The file is at the user $HOME, so first step is to go the directory.</description>
+    </item>
+    
+  </channel>
+</rss>

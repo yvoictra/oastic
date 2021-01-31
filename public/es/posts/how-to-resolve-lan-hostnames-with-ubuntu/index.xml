@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Cómo resolver nombres de hosts en una LAN con Ubuntu on Oastic</title>
+    <link>https://oastic.com/es/posts/how-to-resolve-lan-hostnames-with-ubuntu/</link>
+    <description>Recent content in Cómo resolver nombres de hosts en una LAN con Ubuntu on Oastic</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 19 Apr 2020 14:35:52 +0000</lastBuildDate>
+    
+	<atom:link href="https://oastic.com/es/posts/how-to-resolve-lan-hostnames-with-ubuntu/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+  </channel>
+</rss>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>network on Oastic</title>
+    <link>https://oastic.com/tags/network/</link>
+    <description>Recent content in network on Oastic</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 03 Apr 2020 16:57:25 +0000</lastBuildDate>
+    
+	<atom:link href="https://oastic.com/tags/network/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>How to monitor network traffic on Ubuntu using vnStat</title>
+      <link>https://oastic.com/posts/how-to-monitor-network-traffic-on-ubuntu-using-vnstat/</link>
+      <pubDate>Fri, 03 Apr 2020 16:57:25 +0000</pubDate>
+      
+      <guid>https://oastic.com/posts/how-to-monitor-network-traffic-on-ubuntu-using-vnstat/</guid>
+      <description>Monitoring network traffic or bandwitdh usage is a must in a SysAdmin tasks. There are many differents tools to manage this monitoring, but one of my favorites is vnStat. The main advantage of this tool is the simplicity of its usage.
+Installation With Ubuntu, the way to install this tool is with apt.
+sudo apt install vnstat  First steps Once installed, it is important to know which interfaces are going to be monitoried.</description>
+    </item>
+    
+  </channel>
+</rss>

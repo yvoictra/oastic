@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>contraseña on Oastic</title>
+    <link>https://oastic.com/es/tags/contrase%C3%B1a/</link>
+    <description>Recent content in contraseña on Oastic</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 01 Apr 2020 21:54:34 +0000</lastBuildDate>
+    
+	<atom:link href="https://oastic.com/es/tags/contrase%C3%B1a/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Crear un nuevo usuario en Ubuntu desde la línea de comandos</title>
+      <link>https://oastic.com/es/posts/create-a-new-user-in-ubuntu-from-terminal/</link>
+      <pubDate>Wed, 01 Apr 2020 21:54:34 +0000</pubDate>
+      
+      <guid>https://oastic.com/es/posts/create-a-new-user-in-ubuntu-from-terminal/</guid>
+      <description>Para crear un usuario nuevo en una distribución de Linx Ubuntu desde la terminal, debes de usar el siguiente comando.
+sudo adduser username  Tras esto, el sistema the preguntará algunos parámetros incluida la contraseña.
+[23:43:24] ubuntu|zoar:~$ sudo adduser yvoictra Adding user `yvoictra&#39; ... Adding new group`yvoictra&#39; (1001) … Adding new user `yvoictra&#39; (1001) with group`yvoictra&#39; … Creating home directory `/home/yvoictra&#39; ... Copying files from`/etc/skel&#39; … New password: Retype new password: passwd: password updated successfully Changing the user information for yvoictra Enter the new value, or press ENTER for the default Full Name []: Yvoictra Room Number []: Work Phone []: Home Phone []: Other []: Is the information correct?</description>
+    </item>
+    
+  </channel>
+</rss>

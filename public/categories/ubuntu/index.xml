@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Ubuntu on Oastic</title>
+    <link>https://oastic.com/categories/ubuntu/</link>
+    <description>Recent content in Ubuntu on Oastic</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 08 Dec 2020 22:47:29 +0000</lastBuildDate>
+    
+	<atom:link href="https://oastic.com/categories/ubuntu/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>How to install a CS GO (Counter-Strike: Global Offensive) server in Ubuntu 20.10</title>
+      <link>https://oastic.com/posts/how-to-install-a-cs-go-counter-strike-global-offenive-server-in-ubuntu-20-10/</link>
+      <pubDate>Tue, 08 Dec 2020 22:47:29 +0000</pubDate>
+      
+      <guid>https://oastic.com/posts/how-to-install-a-cs-go-counter-strike-global-offenive-server-in-ubuntu-20-10/</guid>
+      <description>Some people are interested in have a private server in order to play CS GO (Counter-Strike: Global Offensive) with their friends. The process is easy to follow.
+What is needed?  A server  Memory: At least 2GB RAM (I recommend 4GB) Disk: At least 15 GB os disk space CPU architecture: x86 (ARM not supported)   A Valve account  Create a new user First of all, it is important to create a new user in Linux in order to prevent CS GO server possible hacking to affect your Linux node.</description>
+    </item>
+    
+    <item>
+      <title>How to add alias to your Linux</title>
+      <link>https://oastic.com/posts/how-to-add-alias-to-your-linux/</link>
+      <pubDate>Sat, 24 Oct 2020 09:43:16 +0000</pubDate>
+      
+      <guid>https://oastic.com/posts/how-to-add-alias-to-your-linux/</guid>
+      <description>Using a Linux Operating System, there is a high level of customization, depending on your preferences or needs.
+One important thing is to create alias to the most common commands in order to optimize the time you use. In mi case, I love to use &amp;ldquo;..&amp;rdquo; instead of &amp;ldquo;cd ..&amp;rdquo; or &amp;ldquo;update&amp;rdquo; to update all my Ubuntu software pending updates.
+Here I put my list of aliases, it is not big but it is what I mostly use in the servers I have with Linux.</description>
+    </item>
+    
+    <item>
+      <title>Get IP address location info from command line</title>
+      <link>https://oastic.com/posts/get-ip-address-location-info-from-command-line/</link>
+      <pubDate>Sat, 05 Sep 2020 09:39:33 +0000</pubDate>
+      
+      <guid>https://oastic.com/posts/get-ip-address-location-info-from-command-line/</guid>
+      <description>The Linux command line is a great tool. Today I&amp;rsquo;ll like to share a method to get Geographical IP information with one command, using curl and the tool of ipinfo.io.
+It is as easy to use this command:
+$ curl ipinfo.io/&amp;lt;IP Address&amp;gt;  Here you have an example:
+You will have these parameters:
+ IP City Region Country Loc (Coordinates) Org Postal Timezone  And that&amp;rsquo;s all. If you want more information about an IP address, you could visit the website of ipinfo.</description>
+    </item>
+    
+    <item>
+      <title>Solve issue &#34;client intended to send too large body&#34; in Nginx</title>
+      <link>https://oastic.com/posts/solve-issue-client-intended-to-send-too-large-body-in-nginx/</link>
+      <pubDate>Tue, 01 Sep 2020 13:55:38 +0000</pubDate>
+      
+      <guid>https://oastic.com/posts/solve-issue-client-intended-to-send-too-large-body-in-nginx/</guid>
+      <description>I have faced an issue in a web server using Nginx while trying to upload a file using wordpress.
+In the nginx error log I saw the error &amp;ldquo;Client intended to send too large body&amp;rdquo; in this entry:
+$ tail -f /var/log/nginx/*error*.log 2020/09/01 14:31:04 [error] 884#884: *126565 client intended to send too large body: 1195619 bytes, client: 55.173.250.46, server: test.com, request: &amp;quot;POST /wp-json/wp/v2/media?_locale=user HTTP/2.0&amp;quot;, host: &amp;quot;test.com&amp;quot;, referrer: &amp;quot;https://test.com/wp-admin/post.php?post=2460&amp;amp;action=edit&amp;quot; This limitation is defined in the Nginx web server, so I have to changed the configuration of the server:</description>
+    </item>
+    
+    <item>
+      <title>How to resolve LAN hostnames with Ubuntu</title>
+      <link>https://oastic.com/posts/how-to-resolve-lan-hostnames-with-ubuntu/</link>
+      <pubDate>Sun, 19 Apr 2020 14:35:52 +0000</pubDate>
+      
+      <guid>https://oastic.com/posts/how-to-resolve-lan-hostnames-with-ubuntu/</guid>
+      <description>By default, Ubuntu desktop installation will provide DNS resolving configured, however in Ubuntu server installation avahi-daemon (or mdnsresponder) is needed to be installed to provide local LAN DNS resolution.
+In my case, i found the error &amp;ldquo;Temporary failure in name resolution&amp;rdquo; when I tried to resolve a machine of my LAN from Ubuntu.
+yvoictra@zoar:~$ ping erie.local ping: erie.local: Temporary failure in name resolution To solve this issue, there is no need to install a DNS server in the LAN.</description>
+    </item>
+    
+    <item>
+      <title>How to activate SUDO in Ubuntu for a user</title>
+      <link>https://oastic.com/posts/how-to-activate-sudo-in-ubuntu-for-a-user/</link>
+      <pubDate>Sat, 18 Apr 2020 11:23:49 +0000</pubDate>
+      
+      <guid>https://oastic.com/posts/how-to-activate-sudo-in-ubuntu-for-a-user/</guid>
+      <description>The sudo command allows users to run programs with the security privileges of another user, by default, the root user.
+First if all, the user should be created in the system if it doesn&amp;rsquo;t exists yet.
+On Ubuntu systems, by default members of the group sudo are granted to sudo command access.
+Once the user is created, from root user, or a user with sudo access, you have to execute this command to add the user to sudo group.</description>
+    </item>
+    
+    <item>
+      <title>How to monitor network traffic on Ubuntu using vnStat</title>
+      <link>https://oastic.com/posts/how-to-monitor-network-traffic-on-ubuntu-using-vnstat/</link>
+      <pubDate>Fri, 03 Apr 2020 16:57:25 +0000</pubDate>
+      
+      <guid>https://oastic.com/posts/how-to-monitor-network-traffic-on-ubuntu-using-vnstat/</guid>
+      <description>Monitoring network traffic or bandwitdh usage is a must in a SysAdmin tasks. There are many differents tools to manage this monitoring, but one of my favorites is vnStat. The main advantage of this tool is the simplicity of its usage.
+Installation With Ubuntu, the way to install this tool is with apt.
+sudo apt install vnstat  First steps Once installed, it is important to know which interfaces are going to be monitoried.</description>
+    </item>
+    
+    <item>
+      <title>How to set up WIFI on Ubuntu running on the Raspberry Pi 4</title>
+      <link>https://oastic.com/posts/how-to-set-up-wifi-on-ubuntu-running-on-the-raspberry-pi-4/</link>
+      <pubDate>Thu, 02 Apr 2020 21:18:31 +0000</pubDate>
+      
+      <guid>https://oastic.com/posts/how-to-set-up-wifi-on-ubuntu-running-on-the-raspberry-pi-4/</guid>
+      <description>First step is to check the status of the interfaces. For this, we will use the net-tools package.
+sudo apt install net-tools  Then, we can see the interfaces status
+ifconfig -a  In my case, I have this status of my interface wlan0:
+ubuntu@ubuntu:~$ ifconfig -a wlan0 wlan0: flags=4098&amp;lt;BROADCAST,MULTICAST&amp;gt; mtu 1500 ether dc:a6:32:6c:xx:xx txqueuelen 1000 (Ethernet) RX packets 0 bytes 0 (0.0 B) RX errors 0 dropped 0 overruns 0 frame 0 TX packets 0 bytes 0 (0.</description>
+    </item>
+    
+    <item>
+      <title>Create a new user in Ubuntu from terminal</title>
+      <link>https://oastic.com/posts/create-a-new-user-in-ubuntu-from-terminal/</link>
+      <pubDate>Wed, 01 Apr 2020 21:54:34 +0000</pubDate>
+      
+      <guid>https://oastic.com/posts/create-a-new-user-in-ubuntu-from-terminal/</guid>
+      <description>In order to create a new user in a Linux Ubuntu distribution from terminal, you have to use this command.
+sudo adduser username  After this, the system will ask you some parameters included the password.
+[23:43:24] ubuntu|zoar:~$ sudo adduser yvoictra Adding user `yvoictra&#39; ... Adding new group`yvoictra&#39; (1001) … Adding new user `yvoictra&#39; (1001) with group`yvoictra&#39; … Creating home directory `/home/yvoictra&#39; ... Copying files from`/etc/skel&#39; … New password: Retype new password: passwd: password updated successfully Changing the user information for yvoictra Enter the new value, or press ENTER for the default Full Name []: Yvoictra Room Number []: Work Phone []: Home Phone []: Other []: Is the information correct?</description>
+    </item>
+    
+    <item>
+      <title>Customize Bash Prompt with colours in Ubuntu</title>
+      <link>https://oastic.com/posts/customize-bash-prompt-with-colours-in-ubuntu/</link>
+      <pubDate>Wed, 01 Apr 2020 21:06:21 +0000</pubDate>
+      
+      <guid>https://oastic.com/posts/customize-bash-prompt-with-colours-in-ubuntu/</guid>
+      <description>There are lot of people that simply like to customize the appearence of the terminal, is my case. When you use a terminal during a lot of time, it usually helps to have a prompt more visible than the default one.
+Backup First of all, you should make a backup of the configuration file in order to fall back in case it is necessary. The file is at the user $HOME, so first step is to go the directory.</description>
+    </item>
+    
+    <item>
+      <title>How to change your language and local configuration in Ubuntu</title>
+      <link>https://oastic.com/posts/how-to-change-your-language-and-local-configuration-in-ubuntu/</link>
+      <pubDate>Wed, 01 Apr 2020 19:32:37 +0000</pubDate>
+      
+      <guid>https://oastic.com/posts/how-to-change-your-language-and-local-configuration-in-ubuntu/</guid>
+      <description>Connect with SSH to your machine and execute next command
+sudo dpkg-reconfigure locales  After this, you will see a list of languages and countries. You have to select with space bar the language and country you need. In my case, as I live in Spain, I have selected es_ES.UTF-8. It is recommended to choose UTF-8 version.
+Finally, Ubuntu will ask you to select the default language to use in the operating system.</description>
+    </item>
+    
+    <item>
+      <title>Raspberry Pi Guide</title>
+      <link>https://oastic.com/raspberry-pi-guide/</link>
+      <pubDate>Tue, 31 Mar 2020 21:05:16 +0000</pubDate>
+      
+      <guid>https://oastic.com/raspberry-pi-guide/</guid>
+      <description> How to install Ubuntu in your Raspberry Pi 4 without Keyboard nor screen How to change the hostname How to change language and timezone  Users  How to create a new user in Ubuntu from terminal How to activate SUDO for a user  Networking  How to set up WIFI on Ubuntu Running on the Raspberry Pi 4 How to resolve LAN hostnames How to monitor network traffic with vnStat  Customization  Customize the terminal with screenFetch Customize bash prompt with colours How to add alias to your Linux  </description>
+    </item>
+    
+    <item>
+      <title>How to install Ubuntu in your Raspberry Pi 4 without Keyboard nor screen</title>
+      <link>https://oastic.com/posts/how-to-install-ubuntu-in-your-raspberry-pi-4-without-keyboard-nor-screen/</link>
+      <pubDate>Tue, 31 Mar 2020 19:51:27 +0000</pubDate>
+      
+      <guid>https://oastic.com/posts/how-to-install-ubuntu-in-your-raspberry-pi-4-without-keyboard-nor-screen/</guid>
+      <description>To install Ubuntu in your Raspberry Pi 4 what you need is:
+ Raspberry Pi 4 USB-C cable Mini SD Card (recommended 16 Gb or more) PC Mini SD Card reader in your PC RJ45 Ethernet cable Switch or Router of your network  The first step is to install Ubuntu software in your SD Card. For this, you shoud go to the Raspberry Pi Downloads page, and download the Raspberry Pi Imager.</description>
+    </item>
+    
+    <item>
+      <title>Change hostname in Ubuntu Linux</title>
+      <link>https://oastic.com/posts/change-hostname-in-ubuntu-linux/</link>
+      <pubDate>Mon, 14 Jan 2019 22:22:13 +0000</pubDate>
+      
+      <guid>https://oastic.com/posts/change-hostname-in-ubuntu-linux/</guid>
+      <description>When we first install a new Operating System one of the typical request of the installation process is to set the hostname.
+To change the hostname in Ubuntu Linux system, you can follow different procedures.
+Editing system configuration files Edit the file /etc/hostname using the vi editor. Modify the old name and set the new one.
+$ sudo vi /etc/hostname  Edit the file /etc/hosts and replace any ocurrence of the old name with the new one.</description>
+    </item>
+    
+    <item>
+      <title>List installed packages in Ubuntu</title>
+      <link>https://oastic.com/posts/list-installed-packages-in-ubuntu/</link>
+      <pubDate>Mon, 30 Jul 2018 22:55:23 +0000</pubDate>
+      
+      <guid>https://oastic.com/posts/list-installed-packages-in-ubuntu/</guid>
+      <description>In some situations we need to know which packages we have installed in a Debian or Ubuntu system. In that case, we can use the tool dpkg, which will give us the information we need.
+Next command will give us the current packages installed with different states:
+dpkg --get-selections The states we can have are:
+ install: The package is selected for installation. hold: A package marked to be on hold is not handled by dpkg, unless forced to do that with option &amp;ndash;force-hold.</description>
+    </item>
+    
+    <item>
+      <title>How to Monitor an Ubuntu Server with Grafana and Prometheus</title>
+      <link>https://oastic.com/posts/how-to-monitor-an-ubuntu-server-with-grafana-prometheus/</link>
+      <pubDate>Sun, 29 Jul 2018 22:22:45 +0000</pubDate>
+      
+      <guid>https://oastic.com/posts/how-to-monitor-an-ubuntu-server-with-grafana-prometheus/</guid>
+      <description>Grafana is an open source metric analytics &amp;amp; visualization tool which can help us to monitor the system with a nice Dashboard.
+Step 1: Installing Grafana Grafana is available in the APT packages repository, however it could not be the latest version, so we&amp;rsquo;ll use the official Grafana repository.
+First, it is needed to create the file /etc/apt/sources.list.d/grafana.list and add the following into it:
+deb https://packages.grafana.com/oss/deb stable main  There is a separate repository for beta releases:</description>
+    </item>
+    
+    <item>
+      <title>Customize our Linux terminal with screenFetch (Ubuntu, Debian, CentOS, Linux Mint...)</title>
+      <link>https://oastic.com/posts/customize-our-linux-terminal-with-screenfetch-ubuntu-debian-centos-linux-mint/</link>
+      <pubDate>Thu, 04 Jan 2018 17:28:34 +0000</pubDate>
+      
+      <guid>https://oastic.com/posts/customize-our-linux-terminal-with-screenfetch-ubuntu-debian-centos-linux-mint/</guid>
+      <description>screenFetch is a software for GNU/Linx which shows information related to our Hardware and our Operating System, including the logo of the Linux Distro it is being used. This is the info screenFetch shows:
+ User Name Host Name OS with Code Name Installed Kernel Info System Uptime List of Installed Packages bash Shell Version System Resolution DE (Desktop Environment) WM (Window Manager) WM Theme GTK Theme Icon Theme Font CPU RAM Usage  Here some examples:</description>
+    </item>
+    
+  </channel>
+</rss>

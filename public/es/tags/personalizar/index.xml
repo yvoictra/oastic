@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>personalizar on Oastic</title>
+    <link>https://oastic.com/es/tags/personalizar/</link>
+    <description>Recent content in personalizar on Oastic</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 24 Oct 2020 09:43:16 +0000</lastBuildDate>
+    
+	<atom:link href="https://oastic.com/es/tags/personalizar/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Cómo añadir alias a tu Linux</title>
+      <link>https://oastic.com/es/posts/how-to-add-alias-to-your-linux/</link>
+      <pubDate>Sat, 24 Oct 2020 09:43:16 +0000</pubDate>
+      
+      <guid>https://oastic.com/es/posts/how-to-add-alias-to-your-linux/</guid>
+      <description>Utilizando un sistema operativo Linux, hay un alto nivel de personalización, dependiendo de tus preferencias o necesidades.
+Una cosa importante es crear alias de los comandos más comunes para optimizar el tiempo que utilizas. En micaso, adoro utilizar &amp;ldquo;..&amp;rdquo; en lugar de &amp;ldquo;cd ..&amp;rdquo; o &amp;ldquo;update&amp;rdquo; para actualizar todas las actualizaciones pendientes del software de Ubuntu.
+Aquí os pongo mi lista de alias, no es grande pero es lo que yo utilizo mayormente en los servidores que tengo con Linux.</description>
+    </item>
+    
+    <item>
+      <title>Personalizar el Prompt de Bash con colores en Ubuntu</title>
+      <link>https://oastic.com/es/posts/customize-bash-prompt-with-colours-in-ubuntu/</link>
+      <pubDate>Wed, 01 Apr 2020 21:06:21 +0000</pubDate>
+      
+      <guid>https://oastic.com/es/posts/customize-bash-prompt-with-colours-in-ubuntu/</guid>
+      <description>Hay mucha gente que simplemente les gusta personalizar la apariencia del terminal, es mi caso. Cuando usas una línea de comandos durante mucho tiempo, normalmente ayuda tener un prompt más visible que el que viene por defecto.
+Backup Lo primero, debes de hacer un backup del fichero de configuración para poder dar marcha atrás en caso de que sea necesario. El fichero está en el $HOMe del usuario, así que lo primero es ir a ese directorio.</description>
+    </item>
+    
+    <item>
+      <title>Personalizar nuestra terminal de Linux con screenFetch (Ubuntu, Debian, CentOS, Linux Mint...)</title>
+      <link>https://oastic.com/es/posts/customize-our-linux-terminal-with-screenfetch-ubuntu-debian-centos-linux-mint/</link>
+      <pubDate>Thu, 04 Jan 2018 17:28:34 +0000</pubDate>
+      
+      <guid>https://oastic.com/es/posts/customize-our-linux-terminal-with-screenfetch-ubuntu-debian-centos-linux-mint/</guid>
+      <description>screenFetch es un software para GNU/Linux que muestra información relacionada con nuestro Hardware y nuestro Sistema Operativo, incluyendo el logo de la distribución de Linux que está siendo utilizada. Esto es lo que la info de screenFetch muestra:
+ User Name Host Name OS with Code Name Installed Kernel Info System Uptime List of Installed Packages bash Shell Version System Resolution DE (Desktop Environment) WM (Window Manager) WM Theme GTK Theme Icon Theme Font CPU RAM Usage  Aquí algunos ejemplos:</description>
+    </item>
+    
+  </channel>
+</rss>

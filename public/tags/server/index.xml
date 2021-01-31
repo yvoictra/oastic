@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>server on Oastic</title>
+    <link>https://oastic.com/tags/server/</link>
+    <description>Recent content in server on Oastic</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 08 Dec 2020 22:47:29 +0000</lastBuildDate>
+    
+	<atom:link href="https://oastic.com/tags/server/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>How to install a CS GO (Counter-Strike: Global Offensive) server in Ubuntu 20.10</title>
+      <link>https://oastic.com/posts/how-to-install-a-cs-go-counter-strike-global-offenive-server-in-ubuntu-20-10/</link>
+      <pubDate>Tue, 08 Dec 2020 22:47:29 +0000</pubDate>
+      
+      <guid>https://oastic.com/posts/how-to-install-a-cs-go-counter-strike-global-offenive-server-in-ubuntu-20-10/</guid>
+      <description>Some people are interested in have a private server in order to play CS GO (Counter-Strike: Global Offensive) with their friends. The process is easy to follow.
+What is needed?  A server  Memory: At least 2GB RAM (I recommend 4GB) Disk: At least 15 GB os disk space CPU architecture: x86 (ARM not supported)   A Valve account  Create a new user First of all, it is important to create a new user in Linux in order to prevent CS GO server possible hacking to affect your Linux node.</description>
+    </item>
+    
+    <item>
+      <title>Solve issue &#34;client intended to send too large body&#34; in Nginx</title>
+      <link>https://oastic.com/posts/solve-issue-client-intended-to-send-too-large-body-in-nginx/</link>
+      <pubDate>Tue, 01 Sep 2020 13:55:38 +0000</pubDate>
+      
+      <guid>https://oastic.com/posts/solve-issue-client-intended-to-send-too-large-body-in-nginx/</guid>
+      <description>I have faced an issue in a web server using Nginx while trying to upload a file using wordpress.
+In the nginx error log I saw the error &amp;ldquo;Client intended to send too large body&amp;rdquo; in this entry:
+$ tail -f /var/log/nginx/*error*.log 2020/09/01 14:31:04 [error] 884#884: *126565 client intended to send too large body: 1195619 bytes, client: 55.173.250.46, server: test.com, request: &amp;quot;POST /wp-json/wp/v2/media?_locale=user HTTP/2.0&amp;quot;, host: &amp;quot;test.com&amp;quot;, referrer: &amp;quot;https://test.com/wp-admin/post.php?post=2460&amp;amp;action=edit&amp;quot; This limitation is defined in the Nginx web server, so I have to changed the configuration of the server:</description>
+    </item>
+    
+  </channel>
+</rss>

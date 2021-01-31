@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Linux on Oastic</title>
+    <link>https://oastic.com/es/tags/linux/</link>
+    <description>Recent content in Linux on Oastic</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 08 Dec 2020 22:47:29 +0000</lastBuildDate>
+    
+	<atom:link href="https://oastic.com/es/tags/linux/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Cómo instalar un servidor de CS GO (Counter-Strike: Global Offensive) en Ubuntu 20.10</title>
+      <link>https://oastic.com/es/posts/how-to-install-a-cs-go-counter-strike-global-offenive-server-in-ubuntu-20-10/</link>
+      <pubDate>Tue, 08 Dec 2020 22:47:29 +0000</pubDate>
+      
+      <guid>https://oastic.com/es/posts/how-to-install-a-cs-go-counter-strike-global-offenive-server-in-ubuntu-20-10/</guid>
+      <description>Algunas personas están interesadas en tener un servidor privado para poder jugar al CS GO con sus amigos. El proceso es sencillo de seguir.
+¿Qué es necesario?  Un servidor  Memoria: Al menos 2GB de memoria RAM (Yo recomiendo 4GB) Disco duro: Al menos 15GB de espacio en disco Arquitectura de CPU: x86 (ARM no está soportado)   Una cuenta de Valve  Crear un nuevo usuario Lo primero, es importante crear un nuevo usuario en Linux para evitar que el servidor de CSGO sea hackeado y que afecte a tu nodo Linux.</description>
+    </item>
+    
+    <item>
+      <title>Cómo añadir alias a tu Linux</title>
+      <link>https://oastic.com/es/posts/how-to-add-alias-to-your-linux/</link>
+      <pubDate>Sat, 24 Oct 2020 09:43:16 +0000</pubDate>
+      
+      <guid>https://oastic.com/es/posts/how-to-add-alias-to-your-linux/</guid>
+      <description>Utilizando un sistema operativo Linux, hay un alto nivel de personalización, dependiendo de tus preferencias o necesidades.
+Una cosa importante es crear alias de los comandos más comunes para optimizar el tiempo que utilizas. En micaso, adoro utilizar &amp;ldquo;..&amp;rdquo; en lugar de &amp;ldquo;cd ..&amp;rdquo; o &amp;ldquo;update&amp;rdquo; para actualizar todas las actualizaciones pendientes del software de Ubuntu.
+Aquí os pongo mi lista de alias, no es grande pero es lo que yo utilizo mayormente en los servidores que tengo con Linux.</description>
+    </item>
+    
+    <item>
+      <title>Obtener la localización de una dirección IP desde la línea de comandos</title>
+      <link>https://oastic.com/es/posts/get-ip-address-location-info-from-command-line/</link>
+      <pubDate>Sat, 05 Sep 2020 09:39:33 +0000</pubDate>
+      
+      <guid>https://oastic.com/es/posts/get-ip-address-location-info-from-command-line/</guid>
+      <description>La línea de comandos de Linux es una gran herramienta. Hoy me gustaría compartir un método para obtener la informción geográfica de una IP con un comando, utilizando cURL y la herramienta de ipinfo.io.
+Es tan sencillo como usar este comando:
+$ curl ipinfo.io/&amp;lt;IP Address&amp;gt;  Aquí tienes un ejemplo:
+Obtendrás estos parámetros:
+ IP Ciudad Región País Loc (Coordenadas) Org Código Postal Zona Horaria  Y esto es todo. Si quieres tener más información sobre una dirección IP, podría visitar la web de ipinfo.</description>
+    </item>
+    
+    <item>
+      <title>Solucionar el problema &#34;client intended to send too large body&#34; en Nginx</title>
+      <link>https://oastic.com/es/posts/solve-issue-client-intended-to-send-too-large-body-in-nginx/</link>
+      <pubDate>Tue, 01 Sep 2020 13:55:38 +0000</pubDate>
+      
+      <guid>https://oastic.com/es/posts/solve-issue-client-intended-to-send-too-large-body-in-nginx/</guid>
+      <description>He encontrado un error en un servidor web utilizando Nginx mientras trataba de subir un fichero usando wordpress.
+En el log de errores de Nginx he visto el error &amp;ldquo;Client intended to send too large body&amp;rdquo; en esta entrada:
+$ tail -f /var/log/nginx/*error*.log 2020/09/01 14:31:04 [error] 884#884: *126565 client intended to send too large body: 1195619 bytes, client: 55.173.250.46, server: test.com, request: &amp;quot;POST /wp-json/wp/v2/media?_locale=user HTTP/2.0&amp;quot;, host: &amp;quot;test.com&amp;quot;, referrer: &amp;quot;https://test.com/wp-admin/post.php?post=2460&amp;amp;action=edit&amp;quot; Esto es una limitación definida en el servidor web de Nginx, así que he cambiado la configuración del servidor:</description>
+    </item>
+    
+    <item>
+      <title>Cómo resolver nombres de hosts en una LAN con Ubuntu</title>
+      <link>https://oastic.com/es/posts/how-to-resolve-lan-hostnames-with-ubuntu/</link>
+      <pubDate>Sun, 19 Apr 2020 14:35:52 +0000</pubDate>
+      
+      <guid>https://oastic.com/es/posts/how-to-resolve-lan-hostnames-with-ubuntu/</guid>
+      <description>Por defecto, la instalación Ubuntu desktop nos proporcionará la resolución de DNS configurada, sin embargo, en la instalación de Ubuntu Server avahi-daemon (o mdnsresponder) es necesario que sea instalado para proporcionar resolución DNS de la LAN local.
+En mi caso, encontré el error &amp;ldquo;Temporary failure in name resolution&amp;rdquo; cuando intentaba resolver una máquina en mi LAN desde Ubuntu.
+yvoictra@zoar:~$ ping erie.local ping: erie.local: Temporary failure in name resolution Para solucionar este problema, no es necesario instalar un servidor de DNS en la red LAN.</description>
+    </item>
+    
+    <item>
+      <title>Cómo activar SUDO en Ubuntu para un usuario</title>
+      <link>https://oastic.com/es/posts/how-to-activate-sudo-in-ubuntu-for-a-user/</link>
+      <pubDate>Sat, 18 Apr 2020 11:23:49 +0000</pubDate>
+      
+      <guid>https://oastic.com/es/posts/how-to-activate-sudo-in-ubuntu-for-a-user/</guid>
+      <description>El comando sudo permite a los usuarios a ejecutar programas con los privilegios de seguridad de otro usuario, por defecto, del usuario root.
+Lo primero, el usuario debe de ser creado en el sistema si no existe aún.
+En sistemas Ubuntu, por defecto los miembros del grupo sudo tienen permiso para acceder al comando sudo.
+Una vez el usuario está creado, desde el usuario root o desde un usuario con acceso al comando sudo, tienes que ejecutar este comando para añadir al usuario al grupo sudo.</description>
+    </item>
+    
+    <item>
+      <title>Cómo monitorizar el tráfico de red en Ubuntu utilizando vnStat</title>
+      <link>https://oastic.com/es/posts/how-to-monitor-network-traffic-on-ubuntu-using-vnstat/</link>
+      <pubDate>Fri, 03 Apr 2020 16:57:25 +0000</pubDate>
+      
+      <guid>https://oastic.com/es/posts/how-to-monitor-network-traffic-on-ubuntu-using-vnstat/</guid>
+      <description>Monitorizar el tráfico de red o uso de ancho de banda es algo indispensable en las actividades de un SysAdmin. Hay muchas herramientas diferentes para gestionar esta monitorización, pero una de mis favoritas en vnStat. La principal ventaja de esta herramienta es la simplicidad de su uso.
+Instalación Con Ubuntu, la forma de instalar esta herramiento es con apt.
+sudo apt install vnstat  Primeros pasos Una vez instalado, es importante conocer qué interfaces van a ser monitorizados.</description>
+    </item>
+    
+    <item>
+      <title>Cómo configurar la WIFI en Ubuntu sobre una Raspberry Pi 4</title>
+      <link>https://oastic.com/es/posts/how-to-set-up-wifi-on-ubuntu-running-on-the-raspberry-pi-4/</link>
+      <pubDate>Thu, 02 Apr 2020 21:18:31 +0000</pubDate>
+      
+      <guid>https://oastic.com/es/posts/how-to-set-up-wifi-on-ubuntu-running-on-the-raspberry-pi-4/</guid>
+      <description>El primer paso es revisar el estado del interfaz. Para ello, usaremos el paquete net-tools.
+sudo apt install net-tools  Tras esto, podemos ver el estado del interfaz
+ifconfig -a  En mi caso, éste es el estado de mi interfaz wlan0:
+ubuntu@ubuntu:~$ ifconfig -a wlan0 wlan0: flags=4098&amp;lt;BROADCAST,MULTICAST&amp;gt; mtu 1500 ether dc:a6:32:6c:xx:xx txqueuelen 1000 (Ethernet) RX packets 0 bytes 0 (0.0 B) RX errors 0 dropped 0 overruns 0 frame 0 TX packets 0 bytes 0 (0.</description>
+    </item>
+    
+    <item>
+      <title>Crear un nuevo usuario en Ubuntu desde la línea de comandos</title>
+      <link>https://oastic.com/es/posts/create-a-new-user-in-ubuntu-from-terminal/</link>
+      <pubDate>Wed, 01 Apr 2020 21:54:34 +0000</pubDate>
+      
+      <guid>https://oastic.com/es/posts/create-a-new-user-in-ubuntu-from-terminal/</guid>
+      <description>Para crear un usuario nuevo en una distribución de Linx Ubuntu desde la terminal, debes de usar el siguiente comando.
+sudo adduser username  Tras esto, el sistema the preguntará algunos parámetros incluida la contraseña.
+[23:43:24] ubuntu|zoar:~$ sudo adduser yvoictra Adding user `yvoictra&#39; ... Adding new group`yvoictra&#39; (1001) … Adding new user `yvoictra&#39; (1001) with group`yvoictra&#39; … Creating home directory `/home/yvoictra&#39; ... Copying files from`/etc/skel&#39; … New password: Retype new password: passwd: password updated successfully Changing the user information for yvoictra Enter the new value, or press ENTER for the default Full Name []: Yvoictra Room Number []: Work Phone []: Home Phone []: Other []: Is the information correct?</description>
+    </item>
+    
+    <item>
+      <title>Personalizar el Prompt de Bash con colores en Ubuntu</title>
+      <link>https://oastic.com/es/posts/customize-bash-prompt-with-colours-in-ubuntu/</link>
+      <pubDate>Wed, 01 Apr 2020 21:06:21 +0000</pubDate>
+      
+      <guid>https://oastic.com/es/posts/customize-bash-prompt-with-colours-in-ubuntu/</guid>
+      <description>Hay mucha gente que simplemente les gusta personalizar la apariencia del terminal, es mi caso. Cuando usas una línea de comandos durante mucho tiempo, normalmente ayuda tener un prompt más visible que el que viene por defecto.
+Backup Lo primero, debes de hacer un backup del fichero de configuración para poder dar marcha atrás en caso de que sea necesario. El fichero está en el $HOMe del usuario, así que lo primero es ir a ese directorio.</description>
+    </item>
+    
+    <item>
+      <title>Cómo cambiar el idioma y la configuración local en Ubuntu</title>
+      <link>https://oastic.com/es/posts/how-to-change-your-language-and-local-configuration-in-ubuntu/</link>
+      <pubDate>Wed, 01 Apr 2020 19:32:37 +0000</pubDate>
+      
+      <guid>https://oastic.com/es/posts/how-to-change-your-language-and-local-configuration-in-ubuntu/</guid>
+      <description>Conecta vía SSH a tu máquina y ejecuta el siguiente comando
+sudo dpkg-reconfigure locales  Tras esto, veras un listado de idiomas y países. Tienes que seleccionar con la barra espaciadora el idioma y el país que necesites. En mi caso, como vivo en España, he seleccionado es_ES.UTF-8. Es recomendable seleccionar la versión UTF-8.
+Finalmente, Ubuntu te preguntará el idioma por defecto del sistema operativo.
+Tras esto, debes de configurar el idioma en el teclado con este comando:</description>
+    </item>
+    
+    <item>
+      <title>Guía de Raspberry Pi</title>
+      <link>https://oastic.com/es/raspberry-pi-guide/</link>
+      <pubDate>Tue, 31 Mar 2020 21:05:16 +0000</pubDate>
+      
+      <guid>https://oastic.com/es/raspberry-pi-guide/</guid>
+      <description> Cómo instalar Ubuntu en tu Raspberry Pi 4 sin teclado ni pantalla Cambiar el hostname en Ubuntu Linux Cómo cambiar el idioma y la configuración local en Ubuntu  Usuarios  Cómo crear un nuevo usuario en Ubuntu desde la línea de comandos Cómo activar SUDO en Ubuntu para un usuario  Redes  Cómo configurar la WIFI en Ubuntu sobre una Raspberry Pi 4 Cómo resolver nombres de hosts en una LAN con Ubuntu Cómo monitorizar el tráfico de red en Ubuntu utilizando vnStat  Personalización  Personalizar la terminal con screenFetch Personalizar el Prompt de Bash con colores Cómo añadir alias a tu Linux  </description>
+    </item>
+    
+    <item>
+      <title>Cómo instalar Ubuntu en tu Raspberry Pi 4 sin teclado ni pantalla</title>
+      <link>https://oastic.com/es/posts/how-to-install-ubuntu-in-your-raspberry-pi-4-without-keyboard-nor-screen/</link>
+      <pubDate>Tue, 31 Mar 2020 19:51:27 +0000</pubDate>
+      
+      <guid>https://oastic.com/es/posts/how-to-install-ubuntu-in-your-raspberry-pi-4-without-keyboard-nor-screen/</guid>
+      <description>Para instalar Ubuntu en tu Raspberry Pi 4 lo que necesitas es:
+ Raspberry Pi 4 Cable USB-C Tarjeta Mini SD (Recomendados 16Gb o más) PC Lector de tarjetas Mini SD en tu PC Cable Ethernet RJ45 Switch o Router de tu red local  El primer paso es instalar el software de Ubuntu en tu tarjeta Mini SD. Para ello, debes de ir a la página de descargas de Raspberry Pi, y descarga Raspberry Pi Imager.</description>
+    </item>
+    
+    <item>
+      <title>Cambiar el hostname en Ubuntu Linux</title>
+      <link>https://oastic.com/es/posts/change-hostname-in-ubuntu-linux/</link>
+      <pubDate>Mon, 14 Jan 2019 22:22:13 +0000</pubDate>
+      
+      <guid>https://oastic.com/es/posts/change-hostname-in-ubuntu-linux/</guid>
+      <description>Cuando instalamos por primera vez un nuevo sistema operativo una de las primeras consultas en el proceso de instalación es definir el hostname.
+Para cambiar el hostname de un sistema Ubuntu Linux, puedes seguir diferentes procedimientos.
+Editar los ficheros de configuración y reiniciando Edita el fichero /etc/hostname utilizando el editor vi. Modificar el viejo nombre por el nuevo.
+$ sudo vi /etc/hostname  Edita el fichero /etc/hosts y reemplaza cualquier ocurrencia del viejo nombre por el nuevo nombre.</description>
+    </item>
+    
+    <item>
+      <title>Listar paquetes instalados en Ubuntu</title>
+      <link>https://oastic.com/es/posts/list-installed-packages-in-ubuntu/</link>
+      <pubDate>Mon, 30 Jul 2018 22:55:23 +0000</pubDate>
+      
+      <guid>https://oastic.com/es/posts/list-installed-packages-in-ubuntu/</guid>
+      <description>En algunas situaciones necesitamos saber qué paquetes tenemos instalados en nuestro sistema Debian o Ubuntu. En este caso, utilizamos la herramienta dpkg, que nos dará la información que necesitamos.
+El siguiente comando nos dara el estado actual de paquetes instalados con sus diferentes estados:
+dpkg --get-selections Los estados que podemos tener son los siguientes:
+ install: The package is selected for installation. hold: A package marked to be on hold is not handled by dpkg, unless forced to do that with option &amp;ndash;force-hold.</description>
+    </item>
+    
+    <item>
+      <title>Cómo monitorizar un servidor Ubuntu con Grafana y Prometheus</title>
+      <link>https://oastic.com/es/posts/how-to-monitor-an-ubuntu-server-with-grafana-prometheus/</link>
+      <pubDate>Sun, 29 Jul 2018 22:22:45 +0000</pubDate>
+      
+      <guid>https://oastic.com/es/posts/how-to-monitor-an-ubuntu-server-with-grafana-prometheus/</guid>
+      <description>Grafana es una herramienta open source analizador y visualizador que nos puede ayudar a monitorizar el sistema con un agradable Dashboard.
+Paso 1: Instalar Grafana Grafana está disponible en el repositorio de los paquetes APT, sin embargo podria no ser la última versión, asi que usaremos el repositorio oficial de Grafana.
+Lo primero, es necesario crear el fichero /etc/apt/sources.list.d/grafana.list y añadir lo siguiente en él:
+deb https://packages.grafana.com/oss/deb stable main  Hay un repositorio seperado para versiones beta:</description>
+    </item>
+    
+    <item>
+      <title>Personalizar nuestra terminal de Linux con screenFetch (Ubuntu, Debian, CentOS, Linux Mint...)</title>
+      <link>https://oastic.com/es/posts/customize-our-linux-terminal-with-screenfetch-ubuntu-debian-centos-linux-mint/</link>
+      <pubDate>Thu, 04 Jan 2018 17:28:34 +0000</pubDate>
+      
+      <guid>https://oastic.com/es/posts/customize-our-linux-terminal-with-screenfetch-ubuntu-debian-centos-linux-mint/</guid>
+      <description>screenFetch es un software para GNU/Linux que muestra información relacionada con nuestro Hardware y nuestro Sistema Operativo, incluyendo el logo de la distribución de Linux que está siendo utilizada. Esto es lo que la info de screenFetch muestra:
+ User Name Host Name OS with Code Name Installed Kernel Info System Uptime List of Installed Packages bash Shell Version System Resolution DE (Desktop Environment) WM (Window Manager) WM Theme GTK Theme Icon Theme Font CPU RAM Usage  Aquí algunos ejemplos:</description>
+    </item>
+    
+  </channel>
+</rss>

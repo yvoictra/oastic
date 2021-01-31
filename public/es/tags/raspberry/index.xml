@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Raspberry on Oastic</title>
+    <link>https://oastic.com/es/tags/raspberry/</link>
+    <description>Recent content in Raspberry on Oastic</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 02 Apr 2020 21:18:31 +0000</lastBuildDate>
+    
+	<atom:link href="https://oastic.com/es/tags/raspberry/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Cómo configurar la WIFI en Ubuntu sobre una Raspberry Pi 4</title>
+      <link>https://oastic.com/es/posts/how-to-set-up-wifi-on-ubuntu-running-on-the-raspberry-pi-4/</link>
+      <pubDate>Thu, 02 Apr 2020 21:18:31 +0000</pubDate>
+      
+      <guid>https://oastic.com/es/posts/how-to-set-up-wifi-on-ubuntu-running-on-the-raspberry-pi-4/</guid>
+      <description>El primer paso es revisar el estado del interfaz. Para ello, usaremos el paquete net-tools.
+sudo apt install net-tools  Tras esto, podemos ver el estado del interfaz
+ifconfig -a  En mi caso, éste es el estado de mi interfaz wlan0:
+ubuntu@ubuntu:~$ ifconfig -a wlan0 wlan0: flags=4098&amp;lt;BROADCAST,MULTICAST&amp;gt; mtu 1500 ether dc:a6:32:6c:xx:xx txqueuelen 1000 (Ethernet) RX packets 0 bytes 0 (0.0 B) RX errors 0 dropped 0 overruns 0 frame 0 TX packets 0 bytes 0 (0.</description>
+    </item>
+    
+    <item>
+      <title>Guía de Raspberry Pi</title>
+      <link>https://oastic.com/es/raspberry-pi-guide/</link>
+      <pubDate>Tue, 31 Mar 2020 21:05:16 +0000</pubDate>
+      
+      <guid>https://oastic.com/es/raspberry-pi-guide/</guid>
+      <description> Cómo instalar Ubuntu en tu Raspberry Pi 4 sin teclado ni pantalla Cambiar el hostname en Ubuntu Linux Cómo cambiar el idioma y la configuración local en Ubuntu  Usuarios  Cómo crear un nuevo usuario en Ubuntu desde la línea de comandos Cómo activar SUDO en Ubuntu para un usuario  Redes  Cómo configurar la WIFI en Ubuntu sobre una Raspberry Pi 4 Cómo resolver nombres de hosts en una LAN con Ubuntu Cómo monitorizar el tráfico de red en Ubuntu utilizando vnStat  Personalización  Personalizar la terminal con screenFetch Personalizar el Prompt de Bash con colores Cómo añadir alias a tu Linux  </description>
+    </item>
+    
+    <item>
+      <title>Cómo instalar Ubuntu en tu Raspberry Pi 4 sin teclado ni pantalla</title>
+      <link>https://oastic.com/es/posts/how-to-install-ubuntu-in-your-raspberry-pi-4-without-keyboard-nor-screen/</link>
+      <pubDate>Tue, 31 Mar 2020 19:51:27 +0000</pubDate>
+      
+      <guid>https://oastic.com/es/posts/how-to-install-ubuntu-in-your-raspberry-pi-4-without-keyboard-nor-screen/</guid>
+      <description>Para instalar Ubuntu en tu Raspberry Pi 4 lo que necesitas es:
+ Raspberry Pi 4 Cable USB-C Tarjeta Mini SD (Recomendados 16Gb o más) PC Lector de tarjetas Mini SD en tu PC Cable Ethernet RJ45 Switch o Router de tu red local  El primer paso es instalar el software de Ubuntu en tu tarjeta Mini SD. Para ello, debes de ir a la página de descargas de Raspberry Pi, y descarga Raspberry Pi Imager.</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>web on Oastic</title>
+    <link>https://oastic.com/es/tags/web/</link>
+    <description>Recent content in web on Oastic</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 01 Sep 2020 13:55:38 +0000</lastBuildDate>
+    
+	<atom:link href="https://oastic.com/es/tags/web/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Solucionar el problema &#34;client intended to send too large body&#34; en Nginx</title>
+      <link>https://oastic.com/es/posts/solve-issue-client-intended-to-send-too-large-body-in-nginx/</link>
+      <pubDate>Tue, 01 Sep 2020 13:55:38 +0000</pubDate>
+      
+      <guid>https://oastic.com/es/posts/solve-issue-client-intended-to-send-too-large-body-in-nginx/</guid>
+      <description>He encontrado un error en un servidor web utilizando Nginx mientras trataba de subir un fichero usando wordpress.
+En el log de errores de Nginx he visto el error &amp;ldquo;Client intended to send too large body&amp;rdquo; en esta entrada:
+$ tail -f /var/log/nginx/*error*.log 2020/09/01 14:31:04 [error] 884#884: *126565 client intended to send too large body: 1195619 bytes, client: 55.173.250.46, server: test.com, request: &amp;quot;POST /wp-json/wp/v2/media?_locale=user HTTP/2.0&amp;quot;, host: &amp;quot;test.com&amp;quot;, referrer: &amp;quot;https://test.com/wp-admin/post.php?post=2460&amp;amp;action=edit&amp;quot; Esto es una limitación definida en el servidor web de Nginx, así que he cambiado la configuración del servidor:</description>
+    </item>
+    
+  </channel>
+</rss>

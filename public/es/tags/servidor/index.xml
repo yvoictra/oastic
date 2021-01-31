@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>servidor on Oastic</title>
+    <link>https://oastic.com/es/tags/servidor/</link>
+    <description>Recent content in servidor on Oastic</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 08 Dec 2020 22:47:29 +0000</lastBuildDate>
+    
+	<atom:link href="https://oastic.com/es/tags/servidor/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Cómo instalar un servidor de CS GO (Counter-Strike: Global Offensive) en Ubuntu 20.10</title>
+      <link>https://oastic.com/es/posts/how-to-install-a-cs-go-counter-strike-global-offenive-server-in-ubuntu-20-10/</link>
+      <pubDate>Tue, 08 Dec 2020 22:47:29 +0000</pubDate>
+      
+      <guid>https://oastic.com/es/posts/how-to-install-a-cs-go-counter-strike-global-offenive-server-in-ubuntu-20-10/</guid>
+      <description>Algunas personas están interesadas en tener un servidor privado para poder jugar al CS GO con sus amigos. El proceso es sencillo de seguir.
+¿Qué es necesario?  Un servidor  Memoria: Al menos 2GB de memoria RAM (Yo recomiendo 4GB) Disco duro: Al menos 15GB de espacio en disco Arquitectura de CPU: x86 (ARM no está soportado)   Una cuenta de Valve  Crear un nuevo usuario Lo primero, es importante crear un nuevo usuario en Linux para evitar que el servidor de CSGO sea hackeado y que afecte a tu nodo Linux.</description>
+    </item>
+    
+    <item>
+      <title>Solucionar el problema &#34;client intended to send too large body&#34; en Nginx</title>
+      <link>https://oastic.com/es/posts/solve-issue-client-intended-to-send-too-large-body-in-nginx/</link>
+      <pubDate>Tue, 01 Sep 2020 13:55:38 +0000</pubDate>
+      
+      <guid>https://oastic.com/es/posts/solve-issue-client-intended-to-send-too-large-body-in-nginx/</guid>
+      <description>He encontrado un error en un servidor web utilizando Nginx mientras trataba de subir un fichero usando wordpress.
+En el log de errores de Nginx he visto el error &amp;ldquo;Client intended to send too large body&amp;rdquo; en esta entrada:
+$ tail -f /var/log/nginx/*error*.log 2020/09/01 14:31:04 [error] 884#884: *126565 client intended to send too large body: 1195619 bytes, client: 55.173.250.46, server: test.com, request: &amp;quot;POST /wp-json/wp/v2/media?_locale=user HTTP/2.0&amp;quot;, host: &amp;quot;test.com&amp;quot;, referrer: &amp;quot;https://test.com/wp-admin/post.php?post=2460&amp;amp;action=edit&amp;quot; Esto es una limitación definida en el servidor web de Nginx, así que he cambiado la configuración del servidor:</description>
+    </item>
+    
+  </channel>
+</rss>

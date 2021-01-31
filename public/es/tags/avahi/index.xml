@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>avahi on Oastic</title>
+    <link>https://oastic.com/es/tags/avahi/</link>
+    <description>Recent content in avahi on Oastic</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 19 Apr 2020 14:35:52 +0000</lastBuildDate>
+    
+	<atom:link href="https://oastic.com/es/tags/avahi/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Cómo resolver nombres de hosts en una LAN con Ubuntu</title>
+      <link>https://oastic.com/es/posts/how-to-resolve-lan-hostnames-with-ubuntu/</link>
+      <pubDate>Sun, 19 Apr 2020 14:35:52 +0000</pubDate>
+      
+      <guid>https://oastic.com/es/posts/how-to-resolve-lan-hostnames-with-ubuntu/</guid>
+      <description>Por defecto, la instalación Ubuntu desktop nos proporcionará la resolución de DNS configurada, sin embargo, en la instalación de Ubuntu Server avahi-daemon (o mdnsresponder) es necesario que sea instalado para proporcionar resolución DNS de la LAN local.
+En mi caso, encontré el error &amp;ldquo;Temporary failure in name resolution&amp;rdquo; cuando intentaba resolver una máquina en mi LAN desde Ubuntu.
+yvoictra@zoar:~$ ping erie.local ping: erie.local: Temporary failure in name resolution Para solucionar este problema, no es necesario instalar un servidor de DNS en la red LAN.</description>
+    </item>
+    
+  </channel>
+</rss>

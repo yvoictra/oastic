@@ -1,0 +1,3 @@
+User-agent: *
+Disallow:
+Sitemap: https://oastic.com/sitemap.xml

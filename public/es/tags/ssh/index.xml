@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>SSH on Oastic</title>
+    <link>https://oastic.com/es/tags/ssh/</link>
+    <description>Recent content in SSH on Oastic</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 31 Mar 2020 19:51:27 +0000</lastBuildDate>
+    
+	<atom:link href="https://oastic.com/es/tags/ssh/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Cómo instalar Ubuntu en tu Raspberry Pi 4 sin teclado ni pantalla</title>
+      <link>https://oastic.com/es/posts/how-to-install-ubuntu-in-your-raspberry-pi-4-without-keyboard-nor-screen/</link>
+      <pubDate>Tue, 31 Mar 2020 19:51:27 +0000</pubDate>
+      
+      <guid>https://oastic.com/es/posts/how-to-install-ubuntu-in-your-raspberry-pi-4-without-keyboard-nor-screen/</guid>
+      <description>Para instalar Ubuntu en tu Raspberry Pi 4 lo que necesitas es:
+ Raspberry Pi 4 Cable USB-C Tarjeta Mini SD (Recomendados 16Gb o más) PC Lector de tarjetas Mini SD en tu PC Cable Ethernet RJ45 Switch o Router de tu red local  El primer paso es instalar el software de Ubuntu en tu tarjeta Mini SD. Para ello, debes de ir a la página de descargas de Raspberry Pi, y descarga Raspberry Pi Imager.</description>
+    </item>
+    
+  </channel>
+</rss>

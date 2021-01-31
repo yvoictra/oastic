@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>screenfetch on Oastic</title>
+    <link>https://oastic.com/tags/screenfetch/</link>
+    <description>Recent content in screenfetch on Oastic</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 04 Jan 2018 17:28:34 +0000</lastBuildDate>
+    
+	<atom:link href="https://oastic.com/tags/screenfetch/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Customize our Linux terminal with screenFetch (Ubuntu, Debian, CentOS, Linux Mint...)</title>
+      <link>https://oastic.com/posts/customize-our-linux-terminal-with-screenfetch-ubuntu-debian-centos-linux-mint/</link>
+      <pubDate>Thu, 04 Jan 2018 17:28:34 +0000</pubDate>
+      
+      <guid>https://oastic.com/posts/customize-our-linux-terminal-with-screenfetch-ubuntu-debian-centos-linux-mint/</guid>
+      <description>screenFetch is a software for GNU/Linx which shows information related to our Hardware and our Operating System, including the logo of the Linux Distro it is being used. This is the info screenFetch shows:
+ User Name Host Name OS with Code Name Installed Kernel Info System Uptime List of Installed Packages bash Shell Version System Resolution DE (Desktop Environment) WM (Window Manager) WM Theme GTK Theme Icon Theme Font CPU RAM Usage  Here some examples:</description>
+    </item>
+    
+  </channel>
+</rss>

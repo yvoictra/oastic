@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Cómo activar SUDO en Ubuntu para un usuario on Oastic</title>
+    <link>https://oastic.com/es/posts/how-to-activate-sudo-in-ubuntu-for-a-user/</link>
+    <description>Recent content in Cómo activar SUDO en Ubuntu para un usuario on Oastic</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 18 Apr 2020 11:23:49 +0000</lastBuildDate>
+    
+	<atom:link href="https://oastic.com/es/posts/how-to-activate-sudo-in-ubuntu-for-a-user/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+  </channel>
+</rss>
